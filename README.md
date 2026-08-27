@@ -4,7 +4,7 @@ Standard-cost variance lab for a fictional plant (**Northline Components**, July
 
 Portfolio: [saisiri-bandaru](https://github.com/saisiri-bandaru)
 
-**Workbook:** `Northline_Cost_Accounting_Variances_Jul2026.xlsx` (upload the Excel file to this repo, or generate it with `python3 build_workbook.py` after `pip install openpyxl`).
+**File to open:** `Northline_Cost_Accounting_Variances_Jul2026.xlsx`
 
 All figures are invented. No real employer data.
 
