@@ -2,27 +2,38 @@
 
 Standard-cost variance lab for a fictional plant (**Northline Components**, July 2026).
 
-Portfolio: [saisiri-bandaru](https://github.com/saisiri-bandaru)
+**Open this file:** [`Northline_Cost_Accounting_Variances_Jul2026.xlsx`](Northline_Cost_Accounting_Variances_Jul2026.xlsx)
 
-**File to open:** `Northline_Cost_Accounting_Variances_Jul2026.xlsx`
+All figures are invented. No employer data.
 
-All figures are invented. No real employer data.
+## Business question
 
-## What this shows
+Actual COGS is above standard. Who owns the miss — purchasing, the floor, or the production plan?
 
-- Bill of materials and routing (standards)
-- July actual production, usage, and rates
-- Material price and quantity variances
-- Labor rate and efficiency variances
-- Variable overhead spending and efficiency
-- Fixed overhead budget and volume
-- One-page bridge from standard COGS to actual COGS
+Open `05_Bridge` first. That tab is the meeting.
 
-## Interview talk track
+## Who owns which line
 
-Open `05_Bridge`. Price/rate sits with purchasing and HR. Quantity/efficiency sits with the floor. Volume sits with the production plan vs capacity. Change yellow cells on `02_Actuals` and the bridge moves.
+| Variance | Typical owner | What a good conversation sounds like |
+| --- | --- | --- |
+| Material price | Purchasing | Freight, vendor mix, or a stale standard price |
+| Material quantity | Operations / yield | Scrap, BOM vs actual usage |
+| Labor rate | HR / scheduling | Mix of temps vs full-time, overtime |
+| Labor efficiency | Floor supervisor | Hours per unit vs routing |
+| Variable OH spending / efficiency | Plant controller + ops | Consumables and runtime |
+| Fixed OH budget / volume | Planning | Actual units vs denominator volume |
 
-Blue / yellow = inputs. Black = formulas. Positive variance = unfavorable.
+Convention in this file: **positive variance = unfavorable**.
+
+## What to change in a screen-share
+
+Yellow cells live on `01_Standards` and `02_Actuals`.
+
+**Volume shock to try:** drop July production ~10% on `02_Actuals` and leave standards fixed. Fixed-overhead **volume** variance should widen. Price and rate lines should not move unless you also change spend.
+
+**Price shock to try:** raise actual material price 5% with quantity unchanged. Only the material price bar on the bridge should jump.
+
+Blue / yellow = inputs. Black = formulas.
 
 ## Tabs
 
@@ -33,5 +44,7 @@ Blue / yellow = inputs. Black = formulas. Positive variance = unfavorable.
 | `02_Actuals` | July production and actual spend |
 | `03_Variances` | Full variance stack |
 | `04_By_SKU` | Two-SKU quantity lens |
-| `05_Bridge` | Standard COGS to actual COGS |
+| `05_Bridge` | Standard COGS → actual COGS |
 | `06_Dictionary` | Terms |
+
+[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io) · [saisiri.bandaru12@gmail.com](mailto:saisiri.bandaru12@gmail.com)
