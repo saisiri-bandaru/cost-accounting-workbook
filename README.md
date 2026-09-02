@@ -47,4 +47,4 @@ Blue / yellow = inputs. Black = formulas.
 | `05_Bridge` | Standard COGS → actual COGS |
 | `06_Dictionary` | Terms |
 
-[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io) · [saisiri.bandaru12@gmail.com](mailto:saisiri.bandaru12@gmail.com)
+[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io) · [LinkedIn](https://www.linkedin.com/in/bandarusaisiri) · [bandarusaisiri1207@gmail.com](mailto:bandarusaisiri1207@gmail.com)
